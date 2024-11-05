@@ -1,0 +1,16 @@
+[
+  {
+    "id": 36,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "genre": "Epic",
+    "price": 14.99,
+    "coverImage": "/images/booksImages (4).jpg",
+    "description": "An ancient Greek epic poem that tells the story of Odysseus's adventures as he returns home from the Trojan War.",
+    "publicationDate": "8th century B.C.",
+    "ISBN": "978-0140268867",
+    "language": "English",
+    "pages": 560,
+    "publisher": "Penguin Classics"
+  }
+]
