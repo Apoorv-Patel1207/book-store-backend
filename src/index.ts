@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-import bodyParser from "body-parser";
 import booksRoutes from "./routes/booksRoutes";
 import cartRoutes from "./routes/cartRoutes";
 
@@ -8,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
-app.use(bodyParser.json());
+app.use(express.json());
 
 app.use("/api/books", booksRoutes);
 app.use("/api/cart", cartRoutes);

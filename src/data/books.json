@@ -14,20 +14,6 @@
     "publisher": "The Russian Messenger"
   },
   {
-    "id": 36,
-    "title": "The Odyssey",
-    "author": "Homer",
-    "genre": "Epic",
-    "price": 14.99,
-    "coverImage": "/images/booksImages (4).jpg",
-    "description": "An ancient Greek epic poem that tells the story of Odysseus's adventures as he returns home from the Trojan War.",
-    "publicationDate": "8th century B.C.",
-    "ISBN": "978-0140268867",
-    "language": "English",
-    "pages": 560,
-    "publisher": "Penguin Classics"
-  },
-  {
     "id": 37,
     "title": "War and Peace",
     "author": "Leo Tolstoy",
@@ -40,20 +26,6 @@
     "language": "English",
     "pages": 1296,
     "publisher": "The Russian Messenger"
-  },
-  {
-    "id": 38,
-    "title": "Lord of the Flies",
-    "author": "William Golding",
-    "genre": "Allegorical",
-    "price": 10.99,
-    "coverImage": "/images/booksImages (6).jpg",
-    "description": "A novel about a group of boys stranded on a deserted island who attempt to govern themselves.",
-    "publicationDate": "1954-09-17",
-    "ISBN": "978-0399501487",
-    "language": "English",
-    "pages": 224,
-    "publisher": "Faber and Faber"
   },
   {
     "id": 39,
@@ -922,5 +894,19 @@
     "genre": "check",
     "author": "apoorv",
     "title": "new"
+  },
+  {
+    "id": 103,
+    "ISBN": "ISB 9999",
+    "publisher": "Known Publisher",
+    "pages": 200,
+    "language": "English",
+    "publicationDate": "2024-11-06",
+    "description": "this is a short description",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 22,
+    "genre": "horror",
+    "author": "apoorv",
+    "title": "new book"
   }
 ]
