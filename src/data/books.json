@@ -1,19 +1,5 @@
 [
   {
-    "id": 35,
-    "title": "Crime and Punishment",
-    "author": "Fyodor Dostoevsky",
-    "genre": "Philosophical",
-    "price": 13.99,
-    "coverImage": "/images/booksImages (3).jpg",
-    "description": "A psychological novel that explores the mind of a man who has committed murder.",
-    "publicationDate": "1866-01-01",
-    "ISBN": "978-0140449136",
-    "language": "English",
-    "pages": 671,
-    "publisher": "The Russian Messenger"
-  },
-  {
     "id": 37,
     "title": "War and Peace",
     "author": "Leo Tolstoy",

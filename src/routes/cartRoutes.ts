@@ -7,8 +7,6 @@ import {
   updateCartQuantity,
 } from "../controllers/cartController";
 
-
-
 const router = express.Router();
 
 router.get("/", getCartItems);
