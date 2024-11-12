@@ -2,28 +2,12 @@ import { Request, Response } from "express";
 import { readOrdersFromFile, writeOrdersToFile } from "../utils/db";
 import { Order } from "../models/order";
 
-// export const createOrder = (req: Request, res: Response) => {
-//   const orders = readOrdersFromFile();
-//   const newOrder: Order = {
-//     orderId: Date.now(), // Generate a unique ID based on timestamp
-//     items: req.body.items,
-//     totalAmount: req.body.totalAmount,
-//     user: req.body.user,
-//     timestamp: new Date().toISOString(),
-//   };
-
-//   orders.push(newOrder);
-//   writeOrdersToFile(orders);
-
-//   res.status(201).json(newOrder);
-// };
-
 export const createOrder = (req: Request, res: Response) => {
   const orders: Order[] = readOrdersFromFile();
   const newOrder: Order = req.body;
 
   newOrder.orderId = Date.now();
-  newOrder.orderDate = new Date().toISOString();
+  newOrder.orderDate = new Date().toISOString().split("T")[0];
   newOrder.status = "Processing";
 
   orders.push(newOrder);
