@@ -42,49 +42,6 @@ export const clearCart = (req: Request, res: Response) => {
   res.sendStatus(204);
 };
 
-// export const updateCartQuantity = (req: Request, res: Response) => {
-//   const cart = readCartFromFile();
-//   const itemId = parseInt(req.params.id);
-//   const { quantity } = req.body;
-
-//   if (quantity <= 0) {
-//     return res.status(400).send("Quantity must be greater than zero");
-//   }
-
-//   const item = cart.find((item) => item.id === itemId);
-
-//   if (item) {
-//     item.quantity = quantity;
-//     writeCartToFile(cart);
-//     res.json(item);
-//   } else {
-//     res.status(404).send("Item not found in cart");
-//   }
-// };
-
-// export const updateCartQuantity = (
-//   req: Request,
-//   res: Response
-// ): Response | void => {
-//   const cart = readCartFromFile();
-//   const itemId = parseInt(req.params.id);
-//   const { quantity } = req.body;
-
-//   if (quantity <= 0) {
-//     return res.status(400).send("Quantity must be greater than zero");
-//   }
-
-//   const item = cart.find((item) => item.id === itemId);
-
-//   if (item) {
-//     item.quantity = quantity;
-//     writeCartToFile(cart);
-//     return res.json(item); 
-//   } else {
-//     return res.status(404).send("Item not found in cart");
-//   }
-// };
-
 export const updateCartQuantity = (req: Request, res: Response): void => {
   const cart = readCartFromFile();
   const itemId = parseInt(req.params.id);

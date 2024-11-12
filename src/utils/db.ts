@@ -3,10 +3,21 @@ import path from "path";
 import { Book } from "../models/book";
 import { CartItem } from "../models/cart";
 import { Order } from "../models/order";
+import { User } from "../models/user";
 
 const BOOKS_PATH = path.join(__dirname, "..", "data", "books.json");
 const CART_PATH = path.join(__dirname, "..", "data", "cart.json");
 const ORDERS_Path = path.join(__dirname, "..", "data", "orders.json");
+const USERS_PATH = path.join(__dirname, "../data/users.json");
+
+export const readUsersFromFile = (): User[] => {
+  const data = fs.readFileSync(USERS_PATH, "utf-8");
+  return JSON.parse(data) as User[];
+};
+
+export const writeUsersToFile = (users: User[]): void => {
+  fs.writeFileSync(USERS_PATH, JSON.stringify(users, null, 2), "utf-8");
+};
 
 export const readBooksFromFile = (): Book[] => {
   const data = fs.readFileSync(BOOKS_PATH, "utf8");
