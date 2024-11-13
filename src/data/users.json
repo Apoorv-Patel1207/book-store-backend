@@ -25,13 +25,13 @@
   },
   {
     "userId": "google-oauth2|117221977605173875699",
-    "name": "Apoorv Patel",
-    "email": "apoorv1296@gmail.com",
+    "name": "Apoorv",
+    "email": "change1296@gmail.com",
     "createdAt": "2024-11-12T19:35:02.588Z",
     "phone": "7509591293",
-    "address": "",
-    "profileImage": "",
-    "dob": "",
-    "gender": ""
+    "address": "address",
+    "profileImage": "https://images.pexels.com/photos/7915359/pexels-photo-7915359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "dob": "2024-11-01",
+    "gender": "male"
   }
 ]

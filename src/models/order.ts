@@ -11,7 +11,7 @@ export interface ShippingAddress {
 
 export interface Order {
   orderId: number;
-  userId: number;
+  userId: string;
   items: CartItem[];
   totalAmount: number;
   orderDate: string;

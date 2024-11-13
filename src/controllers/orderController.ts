@@ -6,10 +6,10 @@ export const createOrder = (req: Request, res: Response) => {
   const orders: Order[] = readOrdersFromFile();
   const newOrder: Order = req.body;
 
+  newOrder.userId = req.header("x-user-id") || "999";
   newOrder.orderId = Date.now();
   newOrder.orderDate = new Date().toISOString().split("T")[0];
   newOrder.status = "Processing";
-
   orders.push(newOrder);
   writeOrdersToFile(orders);
 
@@ -17,13 +17,27 @@ export const createOrder = (req: Request, res: Response) => {
 };
 
 export const getOrders = (req: Request, res: Response) => {
+  const userId = req.header("x-user-id");
+  if (!userId) {
+    res.status(400).send("User ID is required");
+  }
+
   const orders = readOrdersFromFile();
-  res.json(orders);
+
+  const userOrders = orders.filter((order) => order.userId === userId);
+
+  res.json(userOrders);
 };
 
 export const getOrderById = (req: Request, res: Response) => {
+  const userId = req.header("x-user-id");
+  const orderId = parseInt(req.params.id);
   const orders = readOrdersFromFile();
-  const order = orders.find((o) => o.orderId === parseInt(req.params.id));
+
+  // const order = orders.find((o) => o.orderId === parseInt(req.params.id));
+  const order = orders.find(
+    (o) => o.userId === userId && o.orderId === orderId
+  );
 
   if (order) {
     res.json(order);
@@ -33,9 +47,13 @@ export const getOrderById = (req: Request, res: Response) => {
 };
 
 export const deleteOrder = (req: Request, res: Response) => {
-  const orders = readOrdersFromFile();
+  const userId = req.header("x-user-id");
   const orderId = parseInt(req.params.id);
-  const orderIndex = orders.findIndex((o) => o.orderId === orderId);
+  const orders = readOrdersFromFile();
+
+  const orderIndex = orders.findIndex(
+    (o) => o.userId === userId && o.orderId === orderId
+  );
 
   if (orderIndex !== -1) {
     orders.splice(orderIndex, 1);
@@ -48,11 +66,14 @@ export const deleteOrder = (req: Request, res: Response) => {
 
 // Update the status of an order
 export const updateOrderStatus = (req: Request, res: Response) => {
+  const userId = req.header("x-user-id");
   const orders: Order[] = readOrdersFromFile();
   const orderId = parseInt(req.params.id);
   const { status } = req.body;
 
-  const order = orders.find((o) => o.orderId === orderId);
+  const order = orders.find(
+    (o) => o.userId === userId && o.orderId === orderId
+  );
 
   if (order) {
     order.status = status;

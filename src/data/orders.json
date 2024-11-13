@@ -1,5 +1,4 @@
 [
-  
   {
     "userId": 999999999,
     "items": [
@@ -140,5 +139,84 @@
       "country": "currentUser.address.country"
     },
     "orderId": 1731328360322
+  },
+  {
+    "userId": "google-oauth2|117221977605173875699",
+    "items": [
+      {
+        "id": 201,
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "dystopian",
+        "price": 9.99,
+        "coverImage": "/images/booksImages (2).jpg",
+        "description": "A novel about a totalitarian regime that uses surveillance to control every aspect of life.",
+        "publicationDate": "1949-06-08",
+        "ISBN": "978-0451524935",
+        "language": "English",
+        "pages": 328,
+        "publisher": "Secker & Warburg",
+        "quantity": 1
+      },
+      {
+        "id": 203,
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "genre": "crime",
+        "price": 14.99,
+        "coverImage": "/images/booksImages (4).jpg",
+        "description": "A gripping thriller about a journalist and a hacker investigating a missing person case.",
+        "publicationDate": "2005-08-01",
+        "ISBN": "978-0307949486",
+        "language": "English",
+        "pages": 465,
+        "publisher": "Norstedts Förlag",
+        "quantity": 10
+      }
+    ],
+    "totalAmount": 159.89,
+    "orderDate": "2024-11-13",
+    "status": "Processing",
+    "shippingAddress": {
+      "recipientName": "currentUser.name",
+      "street": "currentUser.address.street",
+      "city": "currentUser.address.city",
+      "state": "currentUser.address.state",
+      "zipCode": "currentUser.address.zipCode",
+      "country": "currentUser.address.country"
+    },
+    "orderId": 1731484926889
+  },
+  {
+    "userId": "google-oauth2|117221977605173875699",
+    "items": [
+      {
+        "id": 200,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "fantasy",
+        "price": 12.99,
+        "coverImage": "/images/booksImages (1).jpg",
+        "description": "A young hobbit embarks on a quest to reclaim a treasure guarded by a dragon.",
+        "publicationDate": "1937-09-21",
+        "ISBN": "978-0345339683",
+        "language": "English",
+        "pages": 310,
+        "publisher": "George Allen & Unwin",
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 12.99,
+    "orderDate": "2024-11-13",
+    "status": "Processing",
+    "shippingAddress": {
+      "recipientName": "currentUser.name",
+      "street": "currentUser.address.street",
+      "city": "currentUser.address.city",
+      "state": "currentUser.address.state",
+      "zipCode": "currentUser.address.zipCode",
+      "country": "currentUser.address.country"
+    },
+    "orderId": 1731485181424
   }
 ]
