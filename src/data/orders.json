@@ -218,5 +218,72 @@
       "country": "currentUser.address.country"
     },
     "orderId": 1731485181424
+  },
+  {
+    "userId": "google-oauth2|117221977605173875699",
+    "items": [
+      {
+        "id": 203,
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "genre": "crime",
+        "price": 14.99,
+        "coverImage": "/images/booksImages (4).jpg",
+        "description": "A gripping thriller about a journalist and a hacker investigating a missing person case.",
+        "publicationDate": "2005-08-01",
+        "ISBN": "978-0307949486",
+        "language": "English",
+        "pages": 465,
+        "publisher": "Norstedts Förlag",
+        "quantity": 1,
+        "userId": "google-oauth2|117221977605173875699"
+      },
+      {
+        "id": 213,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "literary",
+        "price": 10.49,
+        "coverImage": "/images/booksImages (4).jpg",
+        "description": "The story of Holden Caulfield, a teenager struggling with alienation and identity in post-war America.",
+        "publicationDate": "1951-07-16",
+        "ISBN": "978-0316769488",
+        "language": "English",
+        "pages": 277,
+        "publisher": "Little, Brown and Company",
+        "stockQuantity": 12,
+        "quantity": 1,
+        "userId": "google-oauth2|117221977605173875699"
+      },
+      {
+        "id": 234,
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "genre": "classic",
+        "price": 7.99,
+        "coverImage": "/images/booksImages (5).jpg",
+        "description": "A tragic romance set on the English moors, focusing on the passionate and destructive love between Heathcliff and Catherine.",
+        "publicationDate": "1847-12-01",
+        "ISBN": "978-0141439556",
+        "language": "English",
+        "pages": 416,
+        "publisher": "Thomas Cautley Newby",
+        "stockQuantity": 6,
+        "quantity": 10,
+        "userId": "google-oauth2|117221977605173875699"
+      }
+    ],
+    "totalAmount": 105.38,
+    "orderDate": "2024-11-13",
+    "status": "Processing",
+    "shippingAddress": {
+      "recipientName": "currentUser.name",
+      "street": "currentUser.address.street",
+      "city": "currentUser.address.city",
+      "state": "currentUser.address.state",
+      "zipCode": "currentUser.address.zipCode",
+      "country": "currentUser.address.country"
+    },
+    "orderId": 1731502673571
   }
 ]

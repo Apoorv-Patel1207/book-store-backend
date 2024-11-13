@@ -6,7 +6,7 @@ export const createOrder = (req: Request, res: Response) => {
   const orders: Order[] = readOrdersFromFile();
   const newOrder: Order = req.body;
 
-  newOrder.userId = req.header("x-user-id") || "999";
+  newOrder.userId = req.header("x-user-id") || "0";
   newOrder.orderId = Date.now();
   newOrder.orderDate = new Date().toISOString().split("T")[0];
   newOrder.status = "Processing";

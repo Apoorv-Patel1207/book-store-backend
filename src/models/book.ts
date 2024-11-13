@@ -11,5 +11,5 @@ export interface Book {
   language: string;
   pages: number;
   publisher: string;
+  stockQuantity: number;
 }
-

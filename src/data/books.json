@@ -11,7 +11,8 @@
     "ISBN": "978-0345339683",
     "language": "English",
     "pages": 310,
-    "publisher": "George Allen & Unwin"
+    "publisher": "George Allen & Unwin",
+    "stockQuantity": 0
   },
   {
     "id": 201,
@@ -25,9 +26,9 @@
     "ISBN": "978-0451524935",
     "language": "English",
     "pages": 328,
-    "publisher": "Secker & Warburg"
+    "publisher": "Secker & Warburg",
+    "stockQuantity": 8
   },
-
   {
     "id": 203,
     "title": "The Girl with the Dragon Tattoo",
@@ -40,7 +41,8 @@
     "ISBN": "978-0307949486",
     "language": "English",
     "pages": 465,
-    "publisher": "Norstedts Förlag"
+    "publisher": "Norstedts Förlag",
+    "stockQuantity": 0
   },
   {
     "id": 204,
@@ -54,7 +56,8 @@
     "ISBN": "978-0307743657",
     "language": "English",
     "pages": 447,
-    "publisher": "Doubleday"
+    "publisher": "Doubleday",
+    "stockQuantity": 8
   },
   {
     "id": 205,
@@ -68,7 +71,8 @@
     "ISBN": "978-0316769488",
     "language": "English",
     "pages": 277,
-    "publisher": "Little, Brown and Company"
+    "publisher": "Little, Brown and Company",
+    "stockQuantity": 8
   },
   {
     "id": 207,
@@ -82,7 +86,8 @@
     "ISBN": "978-0061120084",
     "language": "English",
     "pages": 324,
-    "publisher": "J.B. Lippincott & Co."
+    "publisher": "J.B. Lippincott & Co.",
+    "stockQuantity": 8
   },
   {
     "id": 208,
@@ -96,7 +101,8 @@
     "ISBN": "978-0525478812",
     "language": "English",
     "pages": 313,
-    "publisher": "Dutton Books"
+    "publisher": "Dutton Books",
+    "stockQuantity": 8
   },
   {
     "id": 209,
@@ -110,7 +116,8 @@
     "ISBN": "978-0062316110",
     "language": "English",
     "pages": 443,
-    "publisher": "Harper"
+    "publisher": "Harper",
+    "stockQuantity": 8
   },
   {
     "id": 210,
@@ -124,7 +131,8 @@
     "ISBN": "978-0553296983",
     "language": "English",
     "pages": 283,
-    "publisher": "Doubleday"
+    "publisher": "Doubleday",
+    "stockQuantity": 8
   },
   {
     "id": 211,
@@ -231,7 +239,6 @@
     "publisher": "Dutton Books",
     "stockQuantity": 8
   },
-
   {
     "id": 219,
     "title": "To Kill a Mockingbird",
@@ -337,7 +344,6 @@
     "publisher": "Archibald Constable and Company",
     "stockQuantity": 6
   },
-
   {
     "id": 227,
     "title": "The Hobbit",
@@ -562,5 +568,35 @@
     "genre": "mystery",
     "author": "Apoorv Author",
     "title": "mysterybook"
+  },
+  {
+    "id": 242,
+    "stockQuantity": 10,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 100,
+    "language": "English",
+    "publicationDate": "2024-11-13",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 10,
+    "genre": "fantasy",
+    "author": "apoorv",
+    "title": "newBook "
+  },
+  {
+    "id": 243,
+    "stockQuantity": 8,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 10,
+    "language": "English",
+    "publicationDate": "2024-11-13",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 100,
+    "genre": "historical",
+    "author": "apoorv",
+    "title": "bok/"
   }
 ]
