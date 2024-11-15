@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "stockQuantity": 0,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 100,
+    "language": "English",
+    "publicationDate": "2024-11-14",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 198,
+    "genre": "crime",
+    "author": "salesman",
+    "title": "new book",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "stockQuantity": 0,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 10,
+    "language": "English",
+    "publicationDate": "2024-11-14",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 200,
+    "genre": "memoir",
+    "author": "SALE",
+    "title": "new 2 ",
+    "status": "pending"
+  }
+]

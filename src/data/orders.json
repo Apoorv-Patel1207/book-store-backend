@@ -1,144 +1,57 @@
 [
   {
-    "userId": 999999999,
+    "userId": "google-oauth2|117221977605173875699",
     "items": [
       {
-        "id": 51,
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "genre": "Modernist",
-        "price": 12.99,
-        "coverImage": "/images/booksImages (3).jpg",
-        "description": "A novel set in the roaring twenties, exploring themes of wealth, class, and the American Dream.",
-        "publicationDate": "1925-04-10",
-        "ISBN": "978-0743273565",
+        "id": 201,
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "dystopian",
+        "price": 9.99,
+        "coverImage": "/images/booksImages (2).jpg",
+        "description": "A novel about a totalitarian regime that uses surveillance to control every aspect of life.",
+        "publicationDate": "1949-06-08",
+        "ISBN": "978-0451524935",
         "language": "English",
-        "pages": 224,
-        "publisher": "Charles Scribner's Sons",
-        "quantity": 1
+        "pages": 328,
+        "publisher": "Secker & Warburg",
+        "stockQuantity": 5,
+        "quantity": 1,
+        "userId": "google-oauth2|117221977605173875699"
       },
       {
-        "id": 53,
-        "title": "The Adventures of Huckleberry Finn",
-        "author": "Mark Twain",
-        "genre": "Adventure",
-        "price": 10.99,
-        "coverImage": "/images/booksImages (5).jpg",
-        "description": "A novel about Huck Finn and Jim, a runaway slave, as they journey down the Mississippi River.",
-        "publicationDate": "1885-02-18",
-        "ISBN": "978-0486280618",
+        "id": 221,
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "genre": "postApocalyptic",
+        "price": 13.5,
+        "coverImage": "/images/booksImages (2).jpg",
+        "description": "A father and son journey through a post-apocalyptic landscape, struggling to survive.",
+        "publicationDate": "2006-09-26",
+        "ISBN": "978-0307387899",
         "language": "English",
-        "pages": 416,
-        "publisher": "Charles L. Webster and Company",
-        "quantity": 1
+        "pages": 287,
+        "publisher": "Alfred A. Knopf",
+        "stockQuantity": 7,
+        "quantity": 1,
+        "userId": "google-oauth2|117221977605173875699"
       }
     ],
-    "totalAmount": 23.98,
-    "orderDate": "2024-11-08",
+    "totalAmount": 23.49,
+    "orderDate": "2024-11-15",
     "status": "Processing",
-    "shippingAddress": {
-      "recipientName": "currentUser.name",
-      "street": "currentUser.address.street",
-      "city": "currentUser.address.city",
-      "state": "currentUser.address.state",
-      "zipCode": "currentUser.address.zipCode",
-      "country": "currentUser.address.country"
+    "userProfile": {
+      "userId": "google-oauth2|117221977605173875699",
+      "name": "Apoorv",
+      "email": "change1296@gmail.com",
+      "createdAt": "2024-11-12T19:35:02.588Z",
+      "phone": "7509591293",
+      "address": "address changed again",
+      "profileImage": "https://images.pexels.com/photos/7915359/pexels-photo-7915359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "dob": "2024-11-01",
+      "gender": "male"
     },
-    "orderId": 1731062582707
-  },
-  {
-    "userId": 999999999,
-    "items": [
-      {
-        "id": 202,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "genre": "classic",
-        "price": 8.99,
-        "coverImage": "/images/booksImages (3).jpg",
-        "description": "The romantic tensions between Elizabeth Bennet and Mr. Darcy unfold in this beloved classic.",
-        "publicationDate": "1813-01-28",
-        "ISBN": "978-1503290563",
-        "language": "English",
-        "pages": 279,
-        "publisher": "T. Egerton",
-        "quantity": 1
-      }
-    ],
-    "totalAmount": 8.99,
-    "orderDate": "2024-11-11",
-    "status": "Processing",
-    "shippingAddress": {
-      "recipientName": "currentUser.name",
-      "street": "currentUser.address.street",
-      "city": "currentUser.address.city",
-      "state": "currentUser.address.state",
-      "zipCode": "currentUser.address.zipCode",
-      "country": "currentUser.address.country"
-    },
-    "orderId": 1731328332959
-  },
-  {
-    "userId": 999999999,
-    "items": [
-      {
-        "id": 51,
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "genre": "Modernist",
-        "price": 12.99,
-        "coverImage": "/images/booksImages (3).jpg",
-        "description": "A novel set in the roaring twenties, exploring themes of wealth, class, and the American Dream.",
-        "publicationDate": "1925-04-10",
-        "ISBN": "978-0743273565",
-        "language": "English",
-        "pages": 224,
-        "publisher": "Charles Scribner's Sons",
-        "quantity": 1
-      },
-      {
-        "id": 53,
-        "title": "The Adventures of Huckleberry Finn",
-        "author": "Mark Twain",
-        "genre": "Adventure",
-        "price": 10.99,
-        "coverImage": "/images/booksImages (5).jpg",
-        "description": "A novel about Huck Finn and Jim, a runaway slave, as they journey down the Mississippi River.",
-        "publicationDate": "1885-02-18",
-        "ISBN": "978-0486280618",
-        "language": "English",
-        "pages": 416,
-        "publisher": "Charles L. Webster and Company",
-        "quantity": 1
-      },
-      {
-        "id": 202,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "genre": "classic",
-        "price": 8.99,
-        "coverImage": "/images/booksImages (3).jpg",
-        "description": "The romantic tensions between Elizabeth Bennet and Mr. Darcy unfold in this beloved classic.",
-        "publicationDate": "1813-01-28",
-        "ISBN": "978-1503290563",
-        "language": "English",
-        "pages": 279,
-        "publisher": "T. Egerton",
-        "quantity": 1
-      }
-    ],
-    "totalAmount": 32.97,
-    "orderDate": "2024-11-11",
-    "status": "Processing",
-    "shippingAddress": {
-      "recipientName": "currentUser.name",
-      "street": "currentUser.address.street",
-      "city": "currentUser.address.city",
-      "state": "currentUser.address.state",
-      "zipCode": "currentUser.address.zipCode",
-      "country": "currentUser.address.country"
-    },
-    "orderId": 1731328360322
+    "orderId": 1731651453457
   },
   {
     "userId": "google-oauth2|117221977605173875699",
@@ -156,14 +69,89 @@
         "language": "English",
         "pages": 328,
         "publisher": "Secker & Warburg",
+        "stockQuantity": 4,
         "quantity": 1
+      }
+    ],
+    "totalAmount": 9.99,
+    "orderDate": "2024-11-15",
+    "status": "Processing",
+    "userProfile": {
+      "userId": "google-oauth2|117221977605173875699",
+      "name": "Apoorv",
+      "email": "change1296@gmail.com",
+      "createdAt": "2024-11-12T19:35:02.588Z",
+      "phone": "7509591293",
+      "address": "address changed again",
+      "profileImage": "https://images.pexels.com/photos/7915359/pexels-photo-7915359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "dob": "2024-11-01",
+      "gender": "male"
+    },
+    "orderId": 1731651933441
+  },
+  {
+    "userId": "google-oauth2|117221977605173875699",
+    "items": [
+      {
+        "id": 219,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "historical",
+        "price": 10.99,
+        "coverImage": "/images/booksImages (1).jpg",
+        "description": "A story of racial injustice in the Deep South, as seen through the eyes of a young girl.",
+        "publicationDate": "1960-07-11",
+        "ISBN": "978-0061120084",
+        "language": "English",
+        "pages": 324,
+        "publisher": "J.B. Lippincott & Co.",
+        "stockQuantity": 10,
+        "quantity": 1,
+        "userId": "google-oauth2|117221977605173875699"
       },
+      {
+        "id": 204,
+        "title": "The Shining",
+        "author": "Stephen King",
+        "genre": "horror",
+        "price": 13.5,
+        "coverImage": "/images/booksImages (5).jpg",
+        "description": "A family stays at a haunted hotel where a supernatural force drives the father to madness.",
+        "publicationDate": "1977-01-28",
+        "ISBN": "978-0307743657",
+        "language": "English",
+        "pages": 447,
+        "publisher": "Doubleday",
+        "stockQuantity": 7,
+        "quantity": 1,
+        "userId": "google-oauth2|117221977605173875699"
+      }
+    ],
+    "totalAmount": 24.49,
+    "orderDate": "2024-11-15",
+    "status": "Processing",
+    "userProfile": {
+      "userId": "google-oauth2|117221977605173875699",
+      "name": "Apoorv",
+      "email": "change1296@gmail.com",
+      "createdAt": "2024-11-12T19:35:02.588Z",
+      "phone": "7509591293",
+      "address": "address chan",
+      "profileImage": "https://images.pexels.com/photos/7915359/pexels-photo-7915359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "dob": "2024-11-01",
+      "gender": "male"
+    },
+    "orderId": 1731658640178
+  },
+  {
+    "userId": "google-oauth2|117221977605173875699",
+    "items": [
       {
         "id": 203,
         "title": "The Girl with the Dragon Tattoo",
         "author": "Stieg Larsson",
         "genre": "crime",
-        "price": 14.99,
+        "price": 25,
         "coverImage": "/images/booksImages (4).jpg",
         "description": "A gripping thriller about a journalist and a hacker investigating a missing person case.",
         "publicationDate": "2005-08-01",
@@ -171,21 +159,117 @@
         "language": "English",
         "pages": 465,
         "publisher": "Norstedts Förlag",
-        "quantity": 10
+        "stockQuantity": 10,
+        "quantity": 10,
+        "userId": "google-oauth2|117221977605173875699"
       }
     ],
-    "totalAmount": 159.89,
-    "orderDate": "2024-11-13",
+    "totalAmount": 250,
+    "orderDate": "2024-11-15",
     "status": "Processing",
-    "shippingAddress": {
-      "recipientName": "currentUser.name",
-      "street": "currentUser.address.street",
-      "city": "currentUser.address.city",
-      "state": "currentUser.address.state",
-      "zipCode": "currentUser.address.zipCode",
-      "country": "currentUser.address.country"
+    "userProfile": {
+      "userId": "google-oauth2|117221977605173875699",
+      "name": "Apoorv Patel",
+      "email": "change1296@gmail.com",
+      "createdAt": "2024-11-12T19:35:02.588Z",
+      "phone": "7509591293",
+      "address": "address",
+      "profileImage": "https://images.pexels.com/photos/7915359/pexels-photo-7915359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "dob": "2024-11-01",
+      "gender": "male",
+      "mobileNumber": "75095912932"
     },
-    "orderId": 1731484926889
+    "orderId": 1731658747557
+  },
+  {
+    "userId": "google-oauth2|117221977605173875699",
+    "items": [
+      {
+        "id": 204,
+        "title": "The Shining",
+        "author": "Stephen King",
+        "genre": "horror",
+        "price": 13.5,
+        "coverImage": "/images/booksImages (5).jpg",
+        "description": "A family stays at a haunted hotel where a supernatural force drives the father to madness.",
+        "publicationDate": "1977-01-28",
+        "ISBN": "978-0307743657",
+        "language": "English",
+        "pages": 447,
+        "publisher": "Doubleday",
+        "stockQuantity": 6,
+        "quantity": 1,
+        "userId": "google-oauth2|117221977605173875699"
+      },
+      {
+        "id": 200,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "fantasy",
+        "price": 12.99,
+        "coverImage": "/images/booksImages (1).jpg",
+        "description": "A young hobbit embarks on a quest to reclaim a treasure guarded by a dragon.",
+        "publicationDate": "1937-09-21",
+        "ISBN": "978-0345339683",
+        "language": "English",
+        "pages": 310,
+        "publisher": "George Allen & Unwin",
+        "stockQuantity": 10,
+        "quantity": 1,
+        "userId": "google-oauth2|117221977605173875699"
+      }
+    ],
+    "totalAmount": 26.49,
+    "orderDate": "2024-11-15",
+    "status": "Processing",
+    "userProfile": {
+      "userId": "google-oauth2|117221977605173875699",
+      "name": "Apoorv",
+      "email": "change1296@gmail.com",
+      "createdAt": "2024-11-12T19:35:02.588Z",
+      "phone": "7509591333333",
+      "address": "address changed again",
+      "profileImage": "https://images.pexels.com/photos/7915359/pexels-photo-7915359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "dob": "2024-11-01",
+      "gender": "male"
+    },
+    "orderId": 1731662071698
+  },
+  {
+    "userId": "google-oauth2|117221977605173875699",
+    "items": [
+      {
+        "id": 203,
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "genre": "crime",
+        "price": 25,
+        "coverImage": "/images/booksImages (4).jpg",
+        "description": "A gripping thriller about a journalist and a hacker investigating a missing person case.",
+        "publicationDate": "2005-08-01",
+        "ISBN": "978-0307949486",
+        "language": "English",
+        "pages": 465,
+        "publisher": "Norstedts Förlag",
+        "stockQuantity": 5,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 25,
+    "orderDate": "2024-11-15",
+    "status": "Processing",
+    "userProfile": {
+      "userId": "google-oauth2|117221977605173875699",
+      "name": "Apoorv Patel",
+      "email": "change1296@gmail.com",
+      "createdAt": "2024-11-12T19:35:02.588Z",
+      "phone": "7509591999",
+      "address": "address changed again 2",
+      "profileImage": "https://images.pexels.com/photos/7915359/pexels-photo-7915359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "dob": "2024-11-01",
+      "gender": "male"
+    },
+    "orderId": 1731664914380
   },
   {
     "userId": "google-oauth2|117221977605173875699",
@@ -203,87 +287,24 @@
         "language": "English",
         "pages": 310,
         "publisher": "George Allen & Unwin",
+        "stockQuantity": 9,
         "quantity": 1
       }
     ],
     "totalAmount": 12.99,
-    "orderDate": "2024-11-13",
+    "orderDate": "2024-11-15",
     "status": "Processing",
-    "shippingAddress": {
-      "recipientName": "currentUser.name",
-      "street": "currentUser.address.street",
-      "city": "currentUser.address.city",
-      "state": "currentUser.address.state",
-      "zipCode": "currentUser.address.zipCode",
-      "country": "currentUser.address.country"
+    "userProfile": {
+      "userId": "google-oauth2|117221977605173875699",
+      "name": "Apoorv",
+      "email": "change1296@gmail.com",
+      "createdAt": "2024-11-12T19:35:02.588Z",
+      "phone": "7509591293",
+      "address": "",
+      "profileImage": "https://images.pexels.com/photos/7915359/pexels-photo-7915359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "dob": "2024-11-01",
+      "gender": "male"
     },
-    "orderId": 1731485181424
-  },
-  {
-    "userId": "google-oauth2|117221977605173875699",
-    "items": [
-      {
-        "id": 203,
-        "title": "The Girl with the Dragon Tattoo",
-        "author": "Stieg Larsson",
-        "genre": "crime",
-        "price": 14.99,
-        "coverImage": "/images/booksImages (4).jpg",
-        "description": "A gripping thriller about a journalist and a hacker investigating a missing person case.",
-        "publicationDate": "2005-08-01",
-        "ISBN": "978-0307949486",
-        "language": "English",
-        "pages": 465,
-        "publisher": "Norstedts Förlag",
-        "quantity": 1,
-        "userId": "google-oauth2|117221977605173875699"
-      },
-      {
-        "id": 213,
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "genre": "literary",
-        "price": 10.49,
-        "coverImage": "/images/booksImages (4).jpg",
-        "description": "The story of Holden Caulfield, a teenager struggling with alienation and identity in post-war America.",
-        "publicationDate": "1951-07-16",
-        "ISBN": "978-0316769488",
-        "language": "English",
-        "pages": 277,
-        "publisher": "Little, Brown and Company",
-        "stockQuantity": 12,
-        "quantity": 1,
-        "userId": "google-oauth2|117221977605173875699"
-      },
-      {
-        "id": 234,
-        "title": "Wuthering Heights",
-        "author": "Emily Brontë",
-        "genre": "classic",
-        "price": 7.99,
-        "coverImage": "/images/booksImages (5).jpg",
-        "description": "A tragic romance set on the English moors, focusing on the passionate and destructive love between Heathcliff and Catherine.",
-        "publicationDate": "1847-12-01",
-        "ISBN": "978-0141439556",
-        "language": "English",
-        "pages": 416,
-        "publisher": "Thomas Cautley Newby",
-        "stockQuantity": 6,
-        "quantity": 10,
-        "userId": "google-oauth2|117221977605173875699"
-      }
-    ],
-    "totalAmount": 105.38,
-    "orderDate": "2024-11-13",
-    "status": "Processing",
-    "shippingAddress": {
-      "recipientName": "currentUser.name",
-      "street": "currentUser.address.street",
-      "city": "currentUser.address.city",
-      "state": "currentUser.address.state",
-      "zipCode": "currentUser.address.zipCode",
-      "country": "currentUser.address.country"
-    },
-    "orderId": 1731502673571
+    "orderId": 1731665003411
   }
 ]

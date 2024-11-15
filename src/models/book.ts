@@ -12,4 +12,5 @@ export interface Book {
   pages: number;
   publisher: string;
   stockQuantity: number;
+  status?: "pending" | "approved";
 }

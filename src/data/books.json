@@ -12,21 +12,6 @@
     "language": "English",
     "pages": 310,
     "publisher": "George Allen & Unwin",
-    "stockQuantity": 0
-  },
-  {
-    "id": 201,
-    "title": "1984",
-    "author": "George Orwell",
-    "genre": "dystopian",
-    "price": 9.99,
-    "coverImage": "/images/booksImages (2).jpg",
-    "description": "A novel about a totalitarian regime that uses surveillance to control every aspect of life.",
-    "publicationDate": "1949-06-08",
-    "ISBN": "978-0451524935",
-    "language": "English",
-    "pages": 328,
-    "publisher": "Secker & Warburg",
     "stockQuantity": 8
   },
   {
@@ -34,7 +19,7 @@
     "title": "The Girl with the Dragon Tattoo",
     "author": "Stieg Larsson",
     "genre": "crime",
-    "price": 14.99,
+    "price": 25,
     "coverImage": "/images/booksImages (4).jpg",
     "description": "A gripping thriller about a journalist and a hacker investigating a missing person case.",
     "publicationDate": "2005-08-01",
@@ -42,7 +27,7 @@
     "language": "English",
     "pages": 465,
     "publisher": "Norstedts Förlag",
-    "stockQuantity": 0
+    "stockQuantity": 4
   },
   {
     "id": 204,
@@ -57,29 +42,14 @@
     "language": "English",
     "pages": 447,
     "publisher": "Doubleday",
-    "stockQuantity": 8
-  },
-  {
-    "id": 205,
-    "title": "The Catcher in the Rye",
-    "author": "J.D. Salinger",
-    "genre": "literary",
-    "price": 10.49,
-    "coverImage": "/images/booksImages (6).jpg",
-    "description": "The story of Holden Caulfield, a teenager struggling with alienation and identity in post-war America.",
-    "publicationDate": "1951-07-16",
-    "ISBN": "978-0316769488",
-    "language": "English",
-    "pages": 277,
-    "publisher": "Little, Brown and Company",
-    "stockQuantity": 8
+    "stockQuantity": 5
   },
   {
     "id": 207,
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "genre": "historical",
-    "price": 10.99,
+    "price": 20,
     "coverImage": "/images/booksImages (8).jpg",
     "description": "A story of racial injustice in the Deep South, as seen through the eyes of a young girl.",
     "publicationDate": "1960-07-11",
@@ -87,7 +57,7 @@
     "language": "English",
     "pages": 324,
     "publisher": "J.B. Lippincott & Co.",
-    "stockQuantity": 8
+    "stockQuantity": 0
   },
   {
     "id": 208,
@@ -120,26 +90,11 @@
     "stockQuantity": 8
   },
   {
-    "id": 210,
-    "title": "The Diary of a Young Girl",
-    "author": "Anne Frank",
-    "genre": "biography",
-    "price": 8.99,
-    "coverImage": "/images/booksImages (1).jpg",
-    "description": "The diary of Anne Frank, a Jewish girl who hid from the Nazis during World War II.",
-    "publicationDate": "1947-06-25",
-    "ISBN": "978-0553296983",
-    "language": "English",
-    "pages": 283,
-    "publisher": "Doubleday",
-    "stockQuantity": 8
-  },
-  {
     "id": 211,
     "title": "Moby-Dick",
     "author": "Herman Melville",
     "genre": "classic",
-    "price": 11.99,
+    "price": 20,
     "coverImage": "/images/booksImages (2).jpg",
     "description": "A sea captain's obsessive quest to hunt the giant white whale, Moby-Dick.",
     "publicationDate": "1851-10-18",
@@ -252,7 +207,7 @@
     "language": "English",
     "pages": 324,
     "publisher": "J.B. Lippincott & Co.",
-    "stockQuantity": 10
+    "stockQuantity": 9
   },
   {
     "id": 220,
@@ -282,7 +237,7 @@
     "language": "English",
     "pages": 287,
     "publisher": "Alfred A. Knopf",
-    "stockQuantity": 7
+    "stockQuantity": 6
   },
   {
     "id": 222,
@@ -343,21 +298,6 @@
     "pages": 418,
     "publisher": "Archibald Constable and Company",
     "stockQuantity": 6
-  },
-  {
-    "id": 227,
-    "title": "The Hobbit",
-    "author": "J.R.R. Tolkien",
-    "genre": "fantasy",
-    "price": 11.49,
-    "coverImage": "/images/booksImages (8).jpg",
-    "description": "The prequel to The Lord of the Rings, following Bilbo Baggins on his adventure to the Lonely Mountain.",
-    "publicationDate": "1937-09-21",
-    "ISBN": "978-0547928227",
-    "language": "English",
-    "pages": 310,
-    "publisher": "George Allen & Unwin",
-    "stockQuantity": 9
   },
   {
     "id": 228,
@@ -570,33 +510,34 @@
     "title": "mysterybook"
   },
   {
-    "id": 242,
-    "stockQuantity": 10,
+    "id": 3,
+    "stockQuantity": 5,
     "ISBN": "",
     "publisher": "Unknown",
     "pages": 100,
     "language": "English",
-    "publicationDate": "2024-11-13",
-    "description": "",
+    "publicationDate": "2024-11-15",
+    "description": "This is a horror book",
     "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
-    "price": 10,
-    "genre": "fantasy",
-    "author": "apoorv",
-    "title": "newBook "
+    "price": 8,
+    "genre": "horror",
+    "author": "ansul",
+    "title": "ansul book",
+    "status": "approved"
   },
   {
-    "id": 243,
-    "stockQuantity": 8,
+    "id": 4,
+    "stockQuantity": 5,
     "ISBN": "",
     "publisher": "Unknown",
-    "pages": 10,
+    "pages": 199,
     "language": "English",
-    "publicationDate": "2024-11-13",
+    "publicationDate": "2024-11-15",
     "description": "",
     "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
-    "price": 100,
-    "genre": "historical",
-    "author": "apoorv",
-    "title": "bok/"
+    "price": 21,
+    "genre": "horror",
+    "author": "ansul",
+    "title": "anshul 1 "
   }
 ]

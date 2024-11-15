@@ -1,15 +1,48 @@
 import { Request, Response } from "express";
-import { readOrdersFromFile, writeOrdersToFile } from "../utils/db";
+import {
+  readBooksFromFile,
+  readOrdersFromFile,
+  writeBooksToFile,
+  writeOrdersToFile,
+} from "../utils/db";
 import { Order } from "../models/order";
+import { Book } from "../models/book";
 
 export const createOrder = (req: Request, res: Response) => {
   const orders: Order[] = readOrdersFromFile();
+  const books: Book[] = readBooksFromFile();
   const newOrder: Order = req.body;
 
   newOrder.userId = req.header("x-user-id") || "0";
   newOrder.orderId = Date.now();
   newOrder.orderDate = new Date().toISOString().split("T")[0];
   newOrder.status = "Processing";
+
+  // Check stock availability and update stock quantities
+  const insufficientStockBooks = newOrder.items.filter((orderItem) => {
+    const book = books.find((b) => b.id === orderItem.id);
+    return book && book.stockQuantity < orderItem.quantity;
+  });
+
+  if (insufficientStockBooks.length > 0) {
+    // If any books have insufficient stock, return an error response
+    res.status(400).json({
+      message: "Insufficient stock for some items",
+      insufficientStockBooks,
+    });
+    return;
+  }
+
+  // Deduct stock quantities for each book in the order
+  newOrder.items.forEach((orderItem) => {
+    const book = books.find((b) => b.id === orderItem.id);
+    if (book) {
+      book.stockQuantity -= orderItem.quantity;
+    }
+  });
+
+  // Save the updated books and orders
+  writeBooksToFile(books);
   orders.push(newOrder);
   writeOrdersToFile(orders);
 
