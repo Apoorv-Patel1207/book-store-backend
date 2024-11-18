@@ -147,14 +147,17 @@ export const approveBook = (req: Request, res: Response) => {
   );
 
   if (bookIndex !== -1) {
-    // Cast the type to ensure `status` is compatible with `Book`
+    // Update the status of the book in the pendingBooks list
     const approvedBook: Book = {
       ...pendingBooks[bookIndex],
       status: "approved",
     };
 
-    books.push(approvedBook); // Add to approved books
-    pendingBooks.splice(bookIndex, 1); // Remove from pending books
+    // Add the book to the approved books list
+    books.push(approvedBook);
+
+    // Update the pending book with the new status
+    pendingBooks[bookIndex] = approvedBook;
 
     writeBooksToFile(books); // Save approved books
     writePendingBooksToFile(pendingBooks); // Update pending list
@@ -165,7 +168,6 @@ export const approveBook = (req: Request, res: Response) => {
   }
 };
 
-// Reject book
 export const rejectBook = (req: Request, res: Response) => {
   const pendingBooks = readPendingBooksFromFile();
   const bookIndex = pendingBooks.findIndex(
@@ -173,9 +175,14 @@ export const rejectBook = (req: Request, res: Response) => {
   );
 
   if (bookIndex !== -1) {
-    const [rejectedBook] = pendingBooks.splice(bookIndex, 1);
-    writePendingBooksToFile(pendingBooks);
-    res.json({ message: "Book rejected", rejectedBook });
+    // Update the status of the book in the pendingBooks list
+    pendingBooks[bookIndex] = {
+      ...pendingBooks[bookIndex],
+      status: "rejected",
+    };
+
+    writePendingBooksToFile(pendingBooks); // Update pending list
+    res.json({ message: "Book rejected", book: pendingBooks[bookIndex] });
   } else {
     res.status(404).send("Pending book not found");
   }

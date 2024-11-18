@@ -12,7 +12,7 @@
     "language": "English",
     "pages": 310,
     "publisher": "George Allen & Unwin",
-    "stockQuantity": 8
+    "stockQuantity": 4
   },
   {
     "id": 203,
@@ -27,7 +27,7 @@
     "language": "English",
     "pages": 465,
     "publisher": "Norstedts Förlag",
-    "stockQuantity": 4
+    "stockQuantity": 0
   },
   {
     "id": 204,
@@ -42,7 +42,7 @@
     "language": "English",
     "pages": 447,
     "publisher": "Doubleday",
-    "stockQuantity": 5
+    "stockQuantity": 4
   },
   {
     "id": 207,
@@ -481,7 +481,7 @@
   },
   {
     "id": 240,
-    "stockQuantity": 50,
+    "stockQuantity": 49,
     "ISBN": "ISB 9999",
     "publisher": "Unknow",
     "pages": 10,
@@ -510,22 +510,6 @@
     "title": "mysterybook"
   },
   {
-    "id": 3,
-    "stockQuantity": 5,
-    "ISBN": "",
-    "publisher": "Unknown",
-    "pages": 100,
-    "language": "English",
-    "publicationDate": "2024-11-15",
-    "description": "This is a horror book",
-    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
-    "price": 8,
-    "genre": "horror",
-    "author": "ansul",
-    "title": "ansul book",
-    "status": "approved"
-  },
-  {
     "id": 4,
     "stockQuantity": 5,
     "ISBN": "",
@@ -539,5 +523,101 @@
     "genre": "horror",
     "author": "ansul",
     "title": "anshul 1 "
+  },
+  {
+    "id": 2,
+    "stockQuantity": 0,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 10,
+    "language": "English",
+    "publicationDate": "2024-11-14",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 200,
+    "genre": "memoir",
+    "author": "SALE",
+    "title": "new 2 ",
+    "status": "approved"
+  },
+  {
+    "id": 1,
+    "stockQuantity": 0,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 100,
+    "language": "English",
+    "publicationDate": "2024-11-14",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 198,
+    "genre": "crime",
+    "author": "salesman",
+    "title": "new book",
+    "status": "approved"
+  },
+  {
+    "id": 3,
+    "stockQuantity": 2,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 12,
+    "language": "English",
+    "publicationDate": "2024-11-18",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 10,
+    "genre": "memoir",
+    "author": "Salesman",
+    "title": "This is the new book",
+    "status": "approved"
+  },
+  {
+    "id": 1,
+    "stockQuantity": 0,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 100,
+    "language": "English",
+    "publicationDate": "2024-11-14",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 198,
+    "genre": "crime",
+    "author": "salesman",
+    "title": "new book",
+    "status": "approved"
+  },
+  {
+    "id": 123,
+    "stockQuantity": 0,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 100,
+    "language": "English",
+    "publicationDate": "2024-11-14",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 198,
+    "genre": "crime",
+    "author": "salesman",
+    "title": "new book1",
+    "status": "approved"
+  },
+  {
+    "id": 154,
+    "stockQuantity": 0,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 100,
+    "language": "English",
+    "publicationDate": "2024-11-14",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 198,
+    "genre": "crime",
+    "author": "salesman",
+    "title": "new book4",
+    "status": "approved"
   }
 ]

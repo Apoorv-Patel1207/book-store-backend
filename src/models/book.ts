@@ -1,3 +1,5 @@
+import { User } from "./user";
+
 export interface Book {
   id: number;
   title: string;
@@ -12,5 +14,6 @@ export interface Book {
   pages: number;
   publisher: string;
   stockQuantity: number;
-  status?: "pending" | "approved";
+  status?: "pending" | "approved" | "rejected";
+  user?: User;
 }
