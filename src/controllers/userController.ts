@@ -32,6 +32,7 @@ export const createOrUpdateUser = (req: Request, res: Response): void => {
       userId: userId as string, // Auth0 user ID
       ...req.body,
       createdAt: new Date().toISOString(),
+      role: "customer",
     };
     users.push(newUser);
     writeUsersToFile(users);

@@ -1,7 +1,7 @@
 import { User } from "./user";
 
 export interface Book {
-  id: number;
+  id: string;
   title: string;
   author: string;
   genre: string;
@@ -15,5 +15,4 @@ export interface Book {
   publisher: string;
   stockQuantity: number;
   status?: "pending" | "approved" | "rejected";
-  user?: User;
 }

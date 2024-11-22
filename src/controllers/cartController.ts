@@ -42,7 +42,7 @@ export const addToCart = (req: Request, res: Response) => {
 // Remove an item from the user's cart
 export const removeFromCart = (req: Request, res: Response) => {
   const userId = req.header("x-user-id");
-  const itemId = parseInt(req.params.id);
+  const itemId = req.params.id;
 
   const cart = readCartFromFile();
   const itemIndex = cart.findIndex(
@@ -71,7 +71,7 @@ export const clearCart = (req: Request, res: Response) => {
 // Update the quantity of a specific item in the user's cart
 export const updateCartQuantity = (req: Request, res: Response): void => {
   const userId = req.header("x-user-id");
-  const itemId = parseInt(req.params.id);
+  const itemId = req.params.id;
   const { quantity } = req.body;
 
   if (quantity <= 0) {

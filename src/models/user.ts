@@ -7,6 +7,6 @@ export interface User {
   profileImage: string;
   dob: string;
   gender: "male" | "female" | "other";
-  role: "admin" | "salesman" | "guest";
+  role: "admin" | "salesman" | "customer";
   createdAt: string; // ISO date string for account creation
 }

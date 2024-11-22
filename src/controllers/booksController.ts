@@ -6,6 +6,7 @@ import {
   writePendingBooksToFile,
 } from "../utils/db";
 import { Book } from "../models/book";
+import { v4 as uuidv4 } from "uuid";
 
 export const getBooks = (req: Request, res: Response) => {
   const books = readBooksFromFile();
@@ -55,7 +56,7 @@ export const getBooks = (req: Request, res: Response) => {
 
 export const getBookById = (req: Request, res: Response) => {
   const books = readBooksFromFile();
-  const book = books.find((b) => b.id === parseInt(req.params.id));
+  const book = books.find((b) => b.id === req.params.id);
   if (book) {
     res.json(book);
   } else {
@@ -65,8 +66,13 @@ export const getBookById = (req: Request, res: Response) => {
 
 export const createBook = (req: Request, res: Response) => {
   const books = readBooksFromFile();
+  // const newBook: Book = {
+  //   id: books.length ? books[books.length - 1].id + 1 : 1,
+  //   ...req.body,
+  // };
+
   const newBook: Book = {
-    id: books.length ? books[books.length - 1].id + 1 : 1,
+    id: uuidv4(),
     ...req.body,
   };
   books.push(newBook);
@@ -76,7 +82,7 @@ export const createBook = (req: Request, res: Response) => {
 
 export const updateBook = (req: Request, res: Response) => {
   const books = readBooksFromFile();
-  const bookIndex = books.findIndex((b) => b.id === parseInt(req.params.id));
+  const bookIndex = books.findIndex((b) => b.id === req.params.id);
 
   if (bookIndex !== -1) {
     // Only update price and stockQuantity if they are provided in the request body
@@ -99,7 +105,7 @@ export const updateBook = (req: Request, res: Response) => {
 
 export const deleteBook = (req: Request, res: Response) => {
   const books = readBooksFromFile();
-  const bookIndex = books.findIndex((b) => b.id === parseInt(req.params.id));
+  const bookIndex = books.findIndex((b) => b.id === req.params.id);
   if (bookIndex !== -1) {
     const [deletedBook] = books.splice(bookIndex, 1);
     writeBooksToFile(books);
@@ -129,11 +135,18 @@ export const getPendingBooks = (req: Request, res: Response) => {
 // Salesman adds a book as "pending"
 export const addPendingBook = (req: Request, res: Response) => {
   const pendingBooks = readPendingBooksFromFile();
+  // const newBook: Book = {
+  //   id: pendingBooks.length ? pendingBooks[pendingBooks.length - 1].id + 1 : 1,
+  //   ...req.body,
+  //   status: "pending",
+  // };
+
   const newBook: Book = {
-    id: pendingBooks.length ? pendingBooks[pendingBooks.length - 1].id + 1 : 1,
+    id: uuidv4(), // Generate a unique ID
     ...req.body,
     status: "pending",
   };
+
   pendingBooks.push(newBook);
   writePendingBooksToFile(pendingBooks);
   res.status(201).json(newBook);
@@ -142,9 +155,7 @@ export const addPendingBook = (req: Request, res: Response) => {
 export const approveBook = (req: Request, res: Response) => {
   const pendingBooks = readPendingBooksFromFile();
   const books = readBooksFromFile();
-  const bookIndex = pendingBooks.findIndex(
-    (b) => b.id === parseInt(req.params.id)
-  );
+  const bookIndex = pendingBooks.findIndex((b) => b.id === req.params.id);
 
   if (bookIndex !== -1) {
     // Update the status of the book in the pendingBooks list
@@ -170,9 +181,7 @@ export const approveBook = (req: Request, res: Response) => {
 
 export const rejectBook = (req: Request, res: Response) => {
   const pendingBooks = readPendingBooksFromFile();
-  const bookIndex = pendingBooks.findIndex(
-    (b) => b.id === parseInt(req.params.id)
-  );
+  const bookIndex = pendingBooks.findIndex((b) => b.id === req.params.id);
 
   if (bookIndex !== -1) {
     // Update the status of the book in the pendingBooks list

@@ -1,6 +1,6 @@
 [
   {
-    "id": 200,
+    "id": "200",
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "genre": "fantasy",
@@ -12,10 +12,10 @@
     "language": "English",
     "pages": 310,
     "publisher": "George Allen & Unwin",
-    "stockQuantity": 4
+    "stockQuantity": 9
   },
   {
-    "id": 203,
+    "id": "203",
     "title": "The Girl with the Dragon Tattoo",
     "author": "Stieg Larsson",
     "genre": "crime",
@@ -27,10 +27,10 @@
     "language": "English",
     "pages": 465,
     "publisher": "Norstedts Förlag",
-    "stockQuantity": 0
+    "stockQuantity": 3
   },
   {
-    "id": 204,
+    "id": "204",
     "title": "The Shining",
     "author": "Stephen King",
     "genre": "horror",
@@ -42,10 +42,10 @@
     "language": "English",
     "pages": 447,
     "publisher": "Doubleday",
-    "stockQuantity": 4
+    "stockQuantity": 11
   },
   {
-    "id": 207,
+    "id": "207",
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "genre": "historical",
@@ -60,7 +60,7 @@
     "stockQuantity": 0
   },
   {
-    "id": 208,
+    "id": "208",
     "title": "The Fault in Our Stars",
     "author": "John Green",
     "genre": "romance",
@@ -75,7 +75,7 @@
     "stockQuantity": 8
   },
   {
-    "id": 209,
+    "id": "209",
     "title": "Sapiens: A Brief History of Humankind",
     "author": "Yuval Noah Harari",
     "genre": "nonFiction",
@@ -87,10 +87,10 @@
     "language": "English",
     "pages": 443,
     "publisher": "Harper",
-    "stockQuantity": 8
+    "stockQuantity": 7
   },
   {
-    "id": 211,
+    "id": "211",
     "title": "Moby-Dick",
     "author": "Herman Melville",
     "genre": "classic",
@@ -105,7 +105,7 @@
     "stockQuantity": 5
   },
   {
-    "id": 212,
+    "id": "212",
     "title": "The Odyssey",
     "author": "Homer",
     "genre": "classic",
@@ -120,7 +120,7 @@
     "stockQuantity": 7
   },
   {
-    "id": 213,
+    "id": "213",
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "genre": "literary",
@@ -135,7 +135,7 @@
     "stockQuantity": 12
   },
   {
-    "id": 214,
+    "id": "214",
     "title": "Brave New World",
     "author": "Aldous Huxley",
     "genre": "dystopian",
@@ -150,7 +150,7 @@
     "stockQuantity": 8
   },
   {
-    "id": 215,
+    "id": "215",
     "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
     "genre": "classic",
@@ -162,10 +162,10 @@
     "language": "English",
     "pages": 254,
     "publisher": "Lippincott's Monthly Magazine",
-    "stockQuantity": 9
+    "stockQuantity": 8
   },
   {
-    "id": 216,
+    "id": "216",
     "title": "The Hunger Games",
     "author": "Suzanne Collins",
     "genre": "dystopian",
@@ -177,10 +177,10 @@
     "language": "English",
     "pages": 374,
     "publisher": "Scholastic Press",
-    "stockQuantity": 6
+    "stockQuantity": 4
   },
   {
-    "id": 217,
+    "id": "217",
     "title": "The Fault in Our Stars",
     "author": "John Green",
     "genre": "romance",
@@ -192,10 +192,10 @@
     "language": "English",
     "pages": 313,
     "publisher": "Dutton Books",
-    "stockQuantity": 8
+    "stockQuantity": 5
   },
   {
-    "id": 219,
+    "id": "219",
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "genre": "historical",
@@ -207,10 +207,10 @@
     "language": "English",
     "pages": 324,
     "publisher": "J.B. Lippincott & Co.",
-    "stockQuantity": 9
+    "stockQuantity": 7
   },
   {
-    "id": 220,
+    "id": "220",
     "title": "The Chronicles of Narnia",
     "author": "C.S. Lewis",
     "genre": "fantasy",
@@ -222,10 +222,10 @@
     "language": "English",
     "pages": 768,
     "publisher": "HarperCollins",
-    "stockQuantity": 6
+    "stockQuantity": 5
   },
   {
-    "id": 221,
+    "id": "221",
     "title": "The Road",
     "author": "Cormac McCarthy",
     "genre": "postApocalyptic",
@@ -240,7 +240,7 @@
     "stockQuantity": 6
   },
   {
-    "id": 222,
+    "id": "222",
     "title": "The Bell Jar",
     "author": "Sylvia Plath",
     "genre": "literary",
@@ -255,7 +255,7 @@
     "stockQuantity": 4
   },
   {
-    "id": 223,
+    "id": "223",
     "title": "The Secret Garden",
     "author": "Frances Hodgson Burnett",
     "genre": "classic",
@@ -270,7 +270,7 @@
     "stockQuantity": 8
   },
   {
-    "id": 224,
+    "id": "224",
     "title": "Frankenstein",
     "author": "Mary Shelley",
     "genre": "horror",
@@ -285,7 +285,7 @@
     "stockQuantity": 5
   },
   {
-    "id": 225,
+    "id": "225",
     "title": "Dracula",
     "author": "Bram Stoker",
     "genre": "horror",
@@ -297,10 +297,10 @@
     "language": "English",
     "pages": 418,
     "publisher": "Archibald Constable and Company",
-    "stockQuantity": 6
+    "stockQuantity": 5
   },
   {
-    "id": 228,
+    "id": "228",
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "genre": "classic",
@@ -312,10 +312,10 @@
     "language": "English",
     "pages": 279,
     "publisher": "T. Egerton, Whitehall",
-    "stockQuantity": 13
+    "stockQuantity": 5
   },
   {
-    "id": 229,
+    "id": "229",
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "genre": "literary",
@@ -330,7 +330,7 @@
     "stockQuantity": 15
   },
   {
-    "id": 230,
+    "id": "230",
     "title": "The Shining",
     "author": "Stephen King",
     "genre": "horror",
@@ -345,7 +345,7 @@
     "stockQuantity": 8
   },
   {
-    "id": 231,
+    "id": "231",
     "title": "The Girl on the Train",
     "author": "Paula Hawkins",
     "genre": "thriller",
@@ -360,7 +360,7 @@
     "stockQuantity": 10
   },
   {
-    "id": 232,
+    "id": "232",
     "title": "The Alchemist",
     "author": "Paulo Coelho",
     "genre": "fiction",
@@ -375,7 +375,7 @@
     "stockQuantity": 12
   },
   {
-    "id": 233,
+    "id": "233",
     "title": "Outsiders",
     "author": "S.E. Hinton",
     "genre": "youngAdult",
@@ -390,7 +390,7 @@
     "stockQuantity": 9
   },
   {
-    "id": 234,
+    "id": "234",
     "title": "Wuthering Heights",
     "author": "Emily Brontë",
     "genre": "classic",
@@ -405,7 +405,7 @@
     "stockQuantity": 6
   },
   {
-    "id": 235,
+    "id": "235",
     "title": "The Handmaid's Tale",
     "author": "Margaret Atwood",
     "genre": "dystopian",
@@ -417,10 +417,10 @@
     "language": "English",
     "pages": 311,
     "publisher": "Houghton Mifflin Harcourt",
-    "stockQuantity": 7
+    "stockQuantity": 5
   },
   {
-    "id": 236,
+    "id": "236",
     "title": "The Dark Tower: The Gunslinger",
     "author": "Stephen King",
     "genre": "fantasy",
@@ -435,7 +435,7 @@
     "stockQuantity": 5
   },
   {
-    "id": 237,
+    "id": "237",
     "title": "The Lord of the Rings: The Fellowship of the Ring",
     "author": "J.R.R. Tolkien",
     "genre": "fantasy",
@@ -447,10 +447,10 @@
     "language": "English",
     "pages": 423,
     "publisher": "Houghton Mifflin",
-    "stockQuantity": 12
+    "stockQuantity": 11
   },
   {
-    "id": 238,
+    "id": "238",
     "title": "The Girl with the Dragon Tattoo",
     "author": "Stieg Larsson",
     "genre": "thriller",
@@ -465,7 +465,7 @@
     "stockQuantity": 8
   },
   {
-    "id": 239,
+    "id": "239",
     "title": "The Silence of the Lambs",
     "author": "Thomas Harris",
     "genre": "thriller",
@@ -480,7 +480,7 @@
     "stockQuantity": 6
   },
   {
-    "id": 240,
+    "id": "240",
     "stockQuantity": 49,
     "ISBN": "ISB 9999",
     "publisher": "Unknow",
@@ -495,7 +495,7 @@
     "title": "New Book"
   },
   {
-    "id": 241,
+    "id": "241",
     "stockQuantity": 1,
     "ISBN": "",
     "publisher": "Unknown",
@@ -510,7 +510,7 @@
     "title": "mysterybook"
   },
   {
-    "id": 4,
+    "id": "4",
     "stockQuantity": 5,
     "ISBN": "",
     "publisher": "Unknown",
@@ -525,7 +525,7 @@
     "title": "anshul 1 "
   },
   {
-    "id": 2,
+    "id": "2",
     "stockQuantity": 0,
     "ISBN": "",
     "publisher": "Unknown",
@@ -541,7 +541,7 @@
     "status": "approved"
   },
   {
-    "id": 1,
+    "id": "1",
     "stockQuantity": 0,
     "ISBN": "",
     "publisher": "Unknown",
@@ -557,7 +557,7 @@
     "status": "approved"
   },
   {
-    "id": 3,
+    "id": "3",
     "stockQuantity": 2,
     "ISBN": "",
     "publisher": "Unknown",
@@ -573,7 +573,7 @@
     "status": "approved"
   },
   {
-    "id": 1,
+    "id": "1",
     "stockQuantity": 0,
     "ISBN": "",
     "publisher": "Unknown",
@@ -589,7 +589,7 @@
     "status": "approved"
   },
   {
-    "id": 123,
+    "id": "123",
     "stockQuantity": 0,
     "ISBN": "",
     "publisher": "Unknown",
@@ -605,7 +605,7 @@
     "status": "approved"
   },
   {
-    "id": 154,
+    "id": "154",
     "stockQuantity": 0,
     "ISBN": "",
     "publisher": "Unknown",
@@ -618,6 +618,22 @@
     "genre": "crime",
     "author": "salesman",
     "title": "new book4",
+    "status": "approved"
+  },
+  {
+    "id": "753b2edc-cd0f-44e3-903c-35a2e0b6371b",
+    "stockQuantity": 22,
+    "ISBN": "",
+    "publisher": "Unknown",
+    "pages": 10,
+    "language": "English",
+    "publicationDate": "2024-11-18",
+    "description": "",
+    "coverImage": "https://media.istockphoto.com/id/1460007178/photo/library-books-on-table-and-background-for-studying-learning-and-research-in-education-school.jpg?s=1024x1024&w=is&k=20&c=cuzIXmvKHLpoGxGIft9zCiTw-jeL0Gjp7UNZau0MNkk=",
+    "price": 10,
+    "genre": "poetry",
+    "author": "check",
+    "title": "new bookcheck433",
     "status": "approved"
   }
 ]
